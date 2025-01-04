@@ -5,6 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:visibility="visible"
     tools:context=".MainActivity">
 
     <TextView
@@ -36,63 +37,92 @@
             android:layout_height="100dp"
             android:width="2dp"
             android:background="@drawable/text_view_border"
-            android:textSize="36sp" />
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="65sp" />
 
         <TextView
             android:id="@+id/main_activity_cell_2_text_view"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:background="@drawable/text_view_border"
-            android:textSize="36sp" />
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="65sp" />
 
         <TextView
             android:id="@+id/main_activity_cell_3_text_view"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:background="@drawable/text_view_border"
-            android:textSize="36sp" />
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="65sp" />
 
         <TextView
             android:id="@+id/main_activity_cell_4_text_view"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:background="@drawable/text_view_border"
-            android:textSize="36sp" />
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="65sp" />
 
         <TextView
             android:id="@+id/main_activity_cell_5_text_view"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:background="@drawable/text_view_border"
-            android:textSize="36sp" />
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="65sp" />
 
         <TextView
             android:id="@+id/main_activity_cell_6_text_view"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:background="@drawable/text_view_border"
-            android:textSize="36sp" />
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="65sp" />
 
         <TextView
             android:id="@+id/main_activity_cell_7_text_view"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:background="@drawable/text_view_border"
-            android:textSize="36sp" />
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="65sp" />
 
         <TextView
             android:id="@+id/main_activity_cell_8_text_view"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:background="@drawable/text_view_border"
-            android:textSize="36sp" />
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="65sp" />
 
         <TextView
             android:id="@+id/main_activity_cell_9_text_view"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:background="@drawable/text_view_border"
-            android:textSize="36sp" />
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="65sp" />
     </GridLayout>
+
+    <Button
+        android:id="@+id/main_activity_restart_game_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="restart game"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_activity_current_player_text_view" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
